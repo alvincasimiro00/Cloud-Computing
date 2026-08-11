@@ -1,7 +1,7 @@
 # IT Course Activities
 
-**Name:** Alvin Casimiro  
-**Course and Section:** BSIT 3A
+**Name:** Alvin T. Casimiro  
+**Course and Section:** BSIT4-L
 
 ## Description
 
