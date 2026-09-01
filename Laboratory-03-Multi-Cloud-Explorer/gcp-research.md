@@ -11,7 +11,7 @@ Called the Google Cloud Console, it features a clean, developer-friendly interfa
 
  Four (4) Core Services
 1. Compute — Compute Engine
-2. **Storage — Cloud Storage
+2. Storage — Cloud Storage
 3. Database — Cloud SQL / BigQuery
 4. Networking — Virtual Private Cloud (VPC)
 
