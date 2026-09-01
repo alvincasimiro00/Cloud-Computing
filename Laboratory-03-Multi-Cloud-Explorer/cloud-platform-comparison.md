@@ -15,16 +15,16 @@ Part 1 — General Comparison Table
 Part 2 — Questions & Answers
 
 1. Which cloud provider offers the broadest range of services?
-AWS offers the widest range of services — over 200 compared to Azure and GCP. Being the market leader and oldest provider, it has the deepest feature coverage across every category, from basic infrastructure to cutting-edge technologies.
+>AWS offers the widest range of services — over 200 compared to Azure and GCP. Being the market leader and oldest provider, it has the deepest feature coverage across every category, from basic infrastructure to cutting-edge technologies.
 
 2. Which provider best integrates with Microsoft technologies?
-Microsoft Azure is the clear choice. It was built from the ground up to integrate seamlessly with Windows Server, Active Directory, Microsoft 365, and .NET. Organizations already invested in Microsoft technology can migrate to Azure with minimal retraining or code changes.
+>Microsoft Azure is the clear choice. It was built from the ground up to integrate seamlessly with Windows Server, Active Directory, Microsoft 365, and .NET. Organizations already invested in Microsoft technology can migrate to Azure with minimal retraining or code changes.
 
 3. Which provider is strongest in Artificial Intelligence and Kubernetes?
 >Google Cloud Platform (GCP) is strongest here. Kubernetes was originally created by Google, so GCP always gets the latest updates first with native support. GCP also offers custom TPUs — Google's own AI chips — providing superior performance and cost-efficiency for AI/ML workloads.
 
-4. Which cloud platform would you personally choose and why?**
-For general-purpose learning and broad compatibility, AWS is my choice because of its massive community, extensive documentation, and industry-wide recognition. However, for AI/ML or container-native projects, I would choose GCP. For organizations already on Microsoft, Azure is the logical decision. Ultimately, the right choice depends entirely on the specific needs and existing technology of the business.
+4. Which cloud platform would you personally choose and why?
+>For general-purpose learning and broad compatibility, AWS is my choice because of its massive community, extensive documentation, and industry-wide recognition. However, for AI/ML or container-native projects, I would choose GCP. For organizations already on Microsoft, Azure is the logical decision. Ultimately, the right choice depends entirely on the specific needs and existing technology of the business.
 
 Part 3 — Equivalent Services Reference
 
