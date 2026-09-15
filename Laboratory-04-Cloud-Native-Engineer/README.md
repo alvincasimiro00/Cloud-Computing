@@ -15,15 +15,15 @@ This laboratory activity focuses on understanding the shift from traditional vir
 
  Docker Commands Used
 
-docker --version
-docker info
-docker pull nginx
-docker run -d -p 8080:80 --name my-nginx nginx
-curl http://localhost:8080
-docker ps
-docker stop my-nginx
-docker ps -a
-docker rm my-nginx
+- docker --version
+- docker info
+- docker pull nginx
+- docker run -d -p 8080:80 --name my-nginx nginx
+- curl http://localhost:8080
+- docker ps
+- docker stop my-nginx
+- docker ps -a
+- docker rm my-nginx
 
  Skills Learned
 
