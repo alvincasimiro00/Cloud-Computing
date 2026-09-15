@@ -1,11 +1,11 @@
- Mission Reflection
+ Reflection
 
-Docker containers boot and become ready in seconds, whereas starting an operating system on a Virtual Machine takes several minutes. This happens because containers share the host operating system instead of loading a full separate system of their own.
+Docker containers start in just seconds. Virtual Machines take several minutes to start because they load a whole new operating system. Containers share the system already installed on your computer, so they are much faster and lighter.
 
-Port mapping is necessary when running a web server inside a container because the container runs in an isolated network space. By using `-p 8080:80`, traffic from port 8080 on your local computer is forwarded to port 80 inside the container, where the Nginx web server listens.
+Port mapping is needed because containers run separately from your computer. Services inside the container cannot be reached directly. Using -p 8080:80 means that when you open port 8080 on your computer, it connects to port 80 inside the container where the Nginx web server runs.
 
-When you use the `docker rm` command, the container itself and all changes made inside it are permanently deleted. The original image file that you used to create the container remains available and unchanged on your system.
+When you use docker rm, the container is removed completely along with anything saved inside it. The original image file you used to create the container stays on your computer and can be used again.
 
-Containerization changes how software developers and IT operations teams work together. It provides consistent environments from development through testing and production. This removes common compatibility issues, speeds up deployment, and makes applications easier to scale and maintain.
+Containerization helps teams work better. It ensures the app runs exactly the same way on every computer and server. This removes common setup problems, makes deployment faster, and helps applications scale easily.
 
-My GitHub portfolio continues to grow as an organized collection of my work and progress. Each laboratory activity adds properly structured folders, documentation, and evidence of tasks completed. It serves as a clear, permanent record of the skills I have learned and the work I have accomplished.
+My GitHub portfolio is becoming more organized with each activity. It now has clear folders, files, and screenshots showing what I have done. It serves as a record of what I am learning and my progress in cloud computing.
