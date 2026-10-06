@@ -1,5 +1,3 @@
-## `reflection.md`
-```markdown
 # Mission Reflection
 
 ## How does `docker-compose.yml` make an engineer’s job easier?
