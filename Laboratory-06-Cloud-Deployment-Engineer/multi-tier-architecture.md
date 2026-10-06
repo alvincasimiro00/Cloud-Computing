@@ -1,18 +1,21 @@
-# Two‑Tier Architecture
+# Two-Tier Architecture
 
 ## The Web/Application Tier
-This is the **frontend** — the Nextcloud web interface users interact with directly. It handles HTTP requests, renders the user interface, manages file uploads/downloads, and runs application logic. It presents the private cloud experience to the browser and communicates with the database tier behind the scenes.
+
+This is the part of the system that users see and use. It handles the website, file uploads and downloads, and other functions of Nextcloud. It also connects to the database when it needs information.
 
 ## The Database Tier
-This is the **backend** — the MariaDB container. It stores persistent, structured data: user accounts, credentials, file metadata, permissions, and configuration settings. It does not serve content directly to users; it responds only to queries from the application tier.
+
+This is where the important information is stored. It includes user accounts, file information, permissions, and system settings. The database gets requests from the application and sends back the needed information.
 
 ## Why Separate Them?
-Separating into two distinct containers offers major advantages:
-- **Independent scaling** — if traffic grows, you can replicate the web tier without touching the database
-- **Specialized optimization** — database servers and web servers have different performance, security, and backup needs
-- **Technology independence** — you can upgrade, replace, or migrate one component without rebuilding the whole system
-- **Fault isolation** — a web app crash won’t corrupt stored data; database maintenance won’t necessarily interrupt the frontend
-- **Security** — database can be restricted to internal network only, never exposed publicly
-- **Maintainability** — clearer responsibility boundaries make code easier to debug and update
 
-Packing both into one container creates a "monolith" that loses all these benefits — harder to scale, secure, update, or recover.
+Separating the web and database makes the system easier to manage.
+
+* **Easy to scale** – the web part can be increased if more users use the system.
+* **Better performance** – each part has its own job.
+* **Easy to update** – one part can be changed without affecting the whole system.
+* **Better security** – the database can be kept private.
+* **Easy to maintain** – problems can be easier to find and fix.
+
+If both are placed in one container, the system can be harder to manage, update, and secure.
