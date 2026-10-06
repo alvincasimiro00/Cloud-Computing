@@ -12,10 +12,10 @@ This is where the important information is stored. It includes user accounts, fi
 
 Separating the web and database makes the system easier to manage.
 
-* **Easy to scale** – the web part can be increased if more users use the system.
-* **Better performance** – each part has its own job.
-* **Easy to update** – one part can be changed without affecting the whole system.
-* **Better security** – the database can be kept private.
-* **Easy to maintain** – problems can be easier to find and fix.
+Easy to scale – the web part can be increased if more users use the system.
+Better performance – each part has its own job.
+Easy to update – one part can be changed without affecting the whole system.
+Better security – the database can be kept private.
+Easy to maintain – problems can be easier to find and fix.
 
 If both are placed in one container, the system can be harder to manage, update, and secure.
