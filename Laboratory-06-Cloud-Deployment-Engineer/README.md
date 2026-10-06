@@ -1,5 +1,5 @@
 # Laboratory 06: Cloud Deployment Engineer
-**Course:** CCM101 – Cloud Computing
+**Course Code:** CCM101 – Cloud Computing
 **Institution:** University of Eastern Pangasinan
 **Student:** Casimiro, Alvin Tarangco.
 
